@@ -2,35 +2,42 @@
 <html lang="en-us">
 
 <head>
+  <!-- Meta tags for defining document properties -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Beast Deal - Deal (^-^)</title>
+  <!-- Link to external stylesheet -->
   <link rel="stylesheet" href="css/style.css">
+  <!-- Meta tags for SEO -->
   <meta name="description" content="">
-
   <meta property="og:title" content="">
   <meta property="og:type" content="">
   <meta property="og:url" content="">
   <meta property="og:image" content="">
-
+  <!-- Favicon links -->
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" href="/icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="icon.png">
-
+  <!-- Theme color for the website -->
   <meta name="theme-color" content="#fafafa">
+  <!-- Script for applying theme presets -->
   <script src="js/theme_preset.js"></script>
 </head>
 
 <body>
 <div class="layouts_baseLayout">
 
+  <!-- Header section -->
   <header id="header" class="header_wrapper">
+    <!-- Main navigation -->
     <nav class="navigation_wrapper">
       <div class="navigation_container">
+        <!-- Logo -->
         <a href="./">
           <img width="60" class="block dark:hidden" src="images/icons/scale_black.svg" alt="Logo Scale">
           <img width="60" class="hidden dark:block" src="images/icons/scale_white.svg" alt="Logo Scale">
         </a>
+        <!-- Navigation links -->
         <div class="navigation_links_container">
           <a class="navigation_link" href="./">Home</a>
           <a class="navigation_link" href="./customers.html">Customers</a>
@@ -39,6 +46,7 @@
           <a class="navigation_link" href="./signUp.html">Sign up</a>
         </div>
       </div>
+      <!-- Icons for theme toggle and external links -->
       <div class="navigation_icons_container">
         <button aria-label="Toggle Dark Mode" class="themeButton">
           <img width="20" height="20" class="block dark:hidden" src="images/icons/moon.svg" alt="Moon">
@@ -49,20 +57,24 @@
           <img width="20" height="20" class="hidden dark:block" src="images/icons/github_white.svg" alt="Github">
         </a>
       </div>
+      <!-- Button for toggling mobile menu -->
       <button aria-label="Toggle Menu" id="menuButton" class="burger_button">
         <span class="menu_line"></span>
         <span class="menu_line"></span>
         <span class="menu_line"></span>
       </button>
     </nav>
+    <!-- Mobile navigation -->
     <nav id="mobileNavigation" class="navigation_wrapper_mobile hidden">
       <div class="navigation_links_container mobile">
+        <!-- Mobile navigation links -->
         <a class="navigation_link" href="./">Home</a>
         <a class="navigation_link" href="./customers.html">Customers</a>
         <a class="navigation_link" href="./about.html">About</a>
         <a class="navigation_link active" href="./deal.html">Deal</a>
         <a class="navigation_link" href="./signUp.html">Sign up</a>
       </div>
+      <!-- Mobile navigation icons -->
       <div class="navigation_icons_container mobile">
         <button aria-label="Toggle Dark Mode" class="themeButton">
           <img width="20" height="20" class="block dark:hidden" src="images/icons/moon.svg" alt="Moon">
@@ -76,12 +88,18 @@
     </nav>
   </header>
 
+  <!-- Main content section -->
   <div class="layouts_centeredLayout">
+    <!-- Container for centering content -->
     <main class="layouts_dealLayout">
+      <!-- Main section for contract signing -->
       <h1 class="special">Sign your contract!</h1>
+      <!-- Title prompting user to sign contract -->
       <form id="dealForm" class="dealForm_container">
+        <!-- Form for collecting contract details -->
         <label>
           First name:
+          <!-- Prompt for user's first name -->
           <input
             class="dealForm_text_input"
             required
@@ -90,9 +108,11 @@
             type="text"
             placeholder="Your first name"
           >
+          <!-- Input field for user's first name -->
         </label>
         <label>
           Last name:
+          <!-- Prompt for user's last name -->
           <input
             class="dealForm_text_input"
             required
@@ -101,19 +121,23 @@
             type="text"
             placeholder="Your last name"
           >
+          <!-- Input field for user's last name -->
         </label>
         <label for="executor">
-          Select your executor
-          <br>
+          Select your executor:
+          <!-- Prompt for selecting an executor -->
           <select name="executor" id="executor">
+            <!-- Dropdown options for executors -->
             <option>mr. Beelzebub</option>
             <option>mr. Lucifer</option>
             <option>mrs. Lilith</option>
             <option>mr. Mephistopheles</option>
+            <!-- Executors' names -->
           </select>
         </label>
         <label for="deal_wish">
           Your wish:
+          <!-- Prompt for user's wish -->
           <textarea
             placeholder="Type your wish here"
             id="deal_wish"
@@ -123,22 +147,32 @@
             required
             minlength="5"
           ></textarea>
+          <!-- Text area for user's wish -->
         </label>
         <br>
+        <!-- Line break for spacing -->
         <label><input required name="rules" type="checkbox">I agree to the terms and return policy</label>
+        <!-- Checkbox for agreement to terms -->
         <br>
+        <!-- Line break for spacing -->
         <button type="submit" aria-disabled="false" class="button_link">Create the contract</button>
+        <!-- Button to create the contract -->
       </form>
       <p id="log"></p>
+      <!-- Placeholder for log or feedback -->
     </main>
   </div>
 
+  <!-- Footer section -->
   <footer class="footer_container">
+    <!-- Footer links -->
     <div class="footer_links_container">
       <button id="rulesButtonOpen">Terms and conditions</button>
       <button id="returnPolicyButtonOpen">Return policy</button>
     </div>
+    <!-- Copyright information -->
     <span class="footer_copyright">©  666 B.C. - 2024 A.D. Beast Deal</span>
+    <!-- Social media icons -->
     <div class="footer_icons_container">
       <a target="_blank" href="https://github.com/serhiipanovjs">
         <img width="20" height="20" class="block dark:hidden" src="images/icons/github_black.svg" alt="Github">
@@ -153,9 +187,12 @@
     </div>
   </footer>
 
+  <!-- Modal for terms and conditions -->
   <div id="rulesModal" class="modal_wrapper hidden">
+    <!-- Modal container -->
     <div class="modal_container">
       <div class="modal_header">
+        <!-- Button to close the modal -->
         <button aria-label="Toggle Menu" id="rulesButtonClose" class="burger_button menu_closed">
           <span class="menu_line"></span>
           <span class="menu_line"></span>
@@ -163,8 +200,10 @@
         </button>
       </div>
       <div class="modal_content">
+        <!-- Terms and conditions content -->
         <h4 class="modal_title">Terms and conditions</h4>
         <ol class="rules_and_conditions_modal_content">
+          <!-- List of terms and conditions -->
           <li>
             Voluntary Agreement: The individual must enter into the agreement of their own free will and fully
             understand the consequences of their actions.
@@ -198,9 +237,12 @@
     </div>
   </div>
 
+  <!-- Modal for return policy -->
   <div id="returnPolicyModal" class="modal_wrapper hidden">
+    <!-- Modal container -->
     <div class="modal_container">
       <div class="modal_header">
+        <!-- Button to close the modal -->
         <button aria-label="Toggle Menu" id="returnPolicyButtonClose" class="burger_button menu_closed">
           <span class="menu_line"></span>
           <span class="menu_line"></span>
@@ -208,8 +250,10 @@
         </button>
       </div>
       <div class="modal_content">
+        <!-- Return policy content -->
         <h4 class="modal_title">Return policy</h4>
         <ol class="return_policy_modal_content">
+          <!-- List of return policy guidelines -->
           <li>
             JavaScript Mastery Requirement: Individuals seeking to return their souls must demonstrate proficiency in
             JavaScript programming language equivalent to at least an intermediate level. This requirement serves as
@@ -267,59 +311,55 @@
     </div>
   </div>
 
+  <!-- Modal dialog for confirming a deal/agreement -->
   <div id="confirmDealModal" class="modal_wrapper hidden">
+    <!-- Container for the modal content -->
     <div class="modal_container">
+      <!-- Header section of the modal containing a close button -->
       <div class="modal_header">
+        <!-- Button to close the modal -->
         <button aria-label="Toggle Menu" id="confirmDealButtonClose" class="burger_button menu_closed">
-          <span class="menu_line"></span>
-          <span class="menu_line"></span>
-          <span class="menu_line"></span>
+          <!-- Three lines representing the close button -->
+          <span class="menu_line"></span><span class="menu_line"></span><span class="menu_line"></span>
         </button>
       </div>
+      <!-- Main content of the modal -->
       <div class="modal_content">
-        <h4>
-          This agreement ("Agreement") is entered into on
-          <span class="dealModalDate"></span>,
-          between
-          <span class="dealModalMortal"></span>,
-          hereinafter referred to as the "Mortal" and
-          <span class="dealModalExecutor"></span>,
-          hereinafter referred to as the "Executor."
-        </h4>
+        <!-- Title of the agreement with placeholders for date, Mortal, and Executor -->
+        <h4>This agreement is entered into on <span class="dealModalDate"></span>, between <span
+          class="dealModalMortal"></span>, hereinafter referred to as the "Mortal" and <span
+          class="dealModalExecutor"></span>, hereinafter referred to as the "Executor."</h4>
+        <!-- Ordered list containing the terms of the agreement -->
         <ol class="confirmDeal_modal_content">
-          <li>
-            Background: The Mortal desires to enter into a pact with the Executor in exchange for wish, as detailed below.
+          <!-- List item describing the background of the agreement -->
+          <li>Background: The Mortal desires to enter into a pact with the Executor in exchange for a wish.</li>
+          <!-- List item specifying the wish requested by the Mortal -->
+          <li>The Mortal hereby requests the fulfillment of the wish: <br><span id="dealModalWish"></span></li>
+          <!-- List item detailing the terms and conditions of the agreement -->
+          <li>Terms and Conditions: In consideration of the fulfillment of the wishes specified above, the Mortal agrees
+            to the following terms and conditions.
           </li>
-
-          <li>
-            The Mortal hereby requests the fulfillment of the wish:
-            <br>
-            <span id="dealModalWish"></span>
+          <!-- List item specifying the consideration for the agreement -->
+          <li>Consideration: In consideration of the fulfillment of the wishes, the Mortal agrees to surrender their
+            soul to the Executor upon the completion of the final wish.
           </li>
-
-          <li>
-            Terms and Conditions:In consideration of the fulfillment of the wishes specified above, the Mortal agrees to
-            the following terms and conditions
-          </li>
-
-          <li>
-            Consideration: In consideration of the fulfillment of the wishes, the Mortal agrees to surrender their soul
-            to the Executor upon the completion of the final wish.
-          </li>
-
+          <!-- List item indicating the signing of the agreement -->
           <li>Signatures: The Parties hereby execute this Agreement as of the date first written above.</li>
         </ol>
+        <!-- Section for displaying signatures and date -->
         <div class="dealModal_signatures">
           <h4>Mortal's Signature: <span class="dealModalMortal"></span></h4>
           <h4>Executor's Signature: <span class="dealModalExecutor"></span></h4>
           <h4>Date: <span class="dealModalDate"></span></h4>
         </div>
+        <!-- Button for signing the agreement -->
         <a href="./" id="dealSubmitButton" role="button" aria-disabled="false" class="button_link">SIGN</a>
       </div>
     </div>
   </div>
 
 </div>
+<!-- Scripts for functionality -->
 <script src="js/header.js"></script>
 <script src="js/footer_and_modals.js"></script>
 <script src="js/deal.js"></script>
