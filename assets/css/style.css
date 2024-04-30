@@ -329,7 +329,7 @@ h1.special {
 
 /* Active navigation link style */
 .header_wrapper .navigation_links_container .active {
-  color: var(--blood_red);
+  color: var(--blue);
   pointer-events: none;
 }
 
@@ -399,7 +399,7 @@ h1.special {
   z-index: -10;
   width: 100%;
   height: 100%;
-  background-image: url("../images/hexagon-grid.svg");
+  background-image: url("../images/icons/hexagon-grid.svg");
   background-position: 50%;
   background-repeat: no-repeat;
   opacity: .5;

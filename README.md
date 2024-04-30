@@ -7,7 +7,7 @@ Explore our virtual aisles and discover a world of endless possibilities, where 
 Join us at Beast Deal and let us turn your dreams into reality, one deal at a time.
 
 
-![beast_deal_mockup](documentations/beast_deal_mockup.png)
+![beast_deal_mockup](documentation/beast_deal_mockup.png)
 
 ## Existing Features
 
@@ -24,9 +24,9 @@ The Beast Deal dashboard is designed to streamline your experience, providing in
 - Return Policy Modal: Familiarize yourself with our return policy through an informative modal window.
 
 #### Light theme:
-![home_page_mockup](documentations/home_page_mockup.png)
+![home_page_mockup](documentation/home_page_mockup.png)
 #### Dark theme:
-![home_page_mockup_dark](documentations/home_page_mockup_dark.png)
+![home_page_mockup_dark](documentation/home_page_mockup_dark.png)
 
 #### Beast Deal Customers
 Don't just take our word for it! Check out what our satisfied customers have to say about their experience with Beast Deal.
@@ -42,9 +42,9 @@ Don't just take our word for it! Check out what our satisfied customers have to 
 - Return Policy Modal: Familiarize yourself with our return policy through an informative modal window.
 
 #### Light theme:
-![customers_page_mockup](documentations/customers_page_mockup.png)
+![customers_page_mockup](documentation/customers_page_mockup.png)
 #### Dark theme:
-![customers_page_mockup_dark](documentations/customers_page_mockup_dark.png)
+![customers_page_mockup_dark](documentation/customers_page_mockup_dark.png)
 
 #### Beast Deal About
 Meet our dedicated team of experts who work tirelessly to bring you the best deals.
@@ -60,9 +60,9 @@ Meet our dedicated team of experts who work tirelessly to bring you the best dea
 - Return Policy Modal: Familiarize yourself with our return policy through an informative modal window.
 
 #### Light theme:
-![about_page_mockup](documentations/about_page_mockup.png)
+![about_page_mockup](documentation/about_page_mockup.png)
 #### Dark theme:
-![about_page_mockup_dark](documentations/about_page_mockup_dark.png)
+![about_page_mockup_dark](documentation/about_page_mockup_dark.png)
 
 #### Beast Deal About
 Meet our dedicated team of experts who work tirelessly to bring you the best deals.
@@ -78,7 +78,7 @@ Meet our dedicated team of experts who work tirelessly to bring you the best dea
 - Terms and Conditions Modal: Gain insights into our terms and conditions through a user-friendly modal window, ensuring transparency and clarity.
 - Return Policy Modal: Familiarize yourself with our return policy through an informative modal window.
 
-![deal_page_mockup](documentations/deal_page_mockup.png)
+![deal_page_mockup](documentation/deal_page_mockup.png)
 
 #### Beast Deal Sign up
 Although there's no sign-up option on this page, you're just a click away from exploring exciting deals. Simply hit the button below to discover our latest offers and promotions on our Deal page.
@@ -97,18 +97,18 @@ Although there's no sign-up option on this page, you're just a click away from e
   - Elements: Menu items for seamless access to various pages and sections.
 
 #### Desktop
-![navigation_bar_desktop](documentations/navigation_bar_desktop.png)
+![navigation_bar_desktop](documentation/navigation_bar_desktop.png)
 #### Mobile
-![navigation_bar_mobile](documentations/navigation_bar_mobile.png)
+![navigation_bar_mobile](documentation/navigation_bar_mobile.png)
 
 - __Footer__
   - Description: Bottom section of the page providing additional navigation and information.
   - Links: Direct links to social media profiles, terms and conditions, and return policy.
 
 #### Desktop
-![footer_desktop](documentations/footer_desktop.png)
+![footer_desktop](documentation/footer_desktop.png)
 #### Mobile
-![footer_mobile](documentations/footer_mobile.png)
+![footer_mobile](documentation/footer_mobile.png)
 
 - __Terms and Conditions Modal__
   - Description: Access legal terms and conditions without leaving the page.
@@ -134,10 +134,24 @@ Although there's no sign-up option on this page, you're just a click away from e
 
 ### Validator Testing
 
-- HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+## Code Validation
+
+### HTML
+
+| File | Screenshot | Passed / Notes |
+| --- | --- | --- |
+Homepage - index.html | ![Homepage - index.html](documentation/htmlvalid_index.png) | Yes - no errors |
+About us - about.html |![About us - about.html](documentation/htmlvalid_about.png) | Yes - no errors|
+Customers - customers.html | ![Services - services.html](documentation/htmlvalid_customers.png) | Yes - no errors |
+Deal - deal.html | ![Contact us - contactus.html](documentation/htmlvalid_deal.png) | Yes - no errors |
+Sign up - sign-up.html | ![Contact us - sign-up.html](documentation/htmlvalid_sign-up.png) | Yes - no errors |
+404 page - 404.html | ![404 - 404.html](documentation/htmlvalid_404.png) | Yes - no errors |
+
+### CSS
+
+| Filename | Screenshot | Notes |
+| --- | --- | --- |
+style.css | ![Jigsaw.w3.org](documentation/cssvalid.png) | The style.css gave no errors. |
 
 ## Deployment
 
