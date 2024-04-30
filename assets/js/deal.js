@@ -2,6 +2,7 @@ const dealForm = document.getElementById("dealForm");
 
 const confirmDealButtonClose = document.getElementById("confirmDealButtonClose");
 const confirmDealModal = document.getElementById("confirmDealModal");
+const thankYouModal = document.getElementById("thankYouModal");
 
 const dealModalWish = document.getElementById("dealModalWish");
 const dealSubmitButton = document.getElementById("dealSubmitButton");
@@ -43,4 +44,7 @@ dealForm.addEventListener("submit", dealFormSubmit);
 
 dealSubmitButton.addEventListener("click",  () => {
   localStorage.setItem("theme", "dark");
+  document.querySelector("html").setAttribute("data-theme", "dark");
+  confirmDealModal.classList.add("hidden");
+  thankYouModal.classList.remove("hidden");
 })

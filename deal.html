@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Beast Deal - Deal (^-^)</title>
   <!-- Link to external stylesheet -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="assets/css/style.css">
   <!-- Meta tags for SEO -->
   <meta name="description" content="">
   <meta property="og:title" content="">
@@ -15,13 +15,13 @@
   <meta property="og:url" content="">
   <meta property="og:image" content="">
   <!-- Favicon links -->
-  <link rel="icon" href="./favicon.ico" sizes="any">
-  <link rel="icon" href="./icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="./icon.png">
+  <link rel="icon" href="assets/favicon/favicon.ico" sizes="any">
+  <link rel="icon" href="assets/favicon/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/favicon/icon.png">
   <!-- Theme color for the website -->
   <meta name="theme-color" content="#fafafa">
   <!-- Script for applying theme presets -->
-  <script src="js/theme_preset.js"></script>
+  <script src="assets/js/theme_preset.js"></script>
 </head>
 
 <body>
@@ -34,8 +34,8 @@
       <div class="navigation_container">
         <!-- Logo -->
         <a href="./">
-          <img width="60" class="block dark:hidden" src="images/icons/scale_black.svg" alt="Logo Scale">
-          <img width="60" class="hidden dark:block" src="images/icons/scale_white.svg" alt="Logo Scale">
+          <img width="60" class="block dark:hidden" src="assets/images/icons/scale_black.svg" alt="Logo Scale">
+          <img width="60" class="hidden dark:block" src="assets/images/icons/scale_white.svg" alt="Logo Scale">
         </a>
         <!-- Navigation links -->
         <div class="navigation_links_container">
@@ -43,18 +43,18 @@
           <a class="navigation_link" href="./customers.html">Customers</a>
           <a class="navigation_link" href="./about.html">About</a>
           <a class="navigation_link active" href="./deal.html">Deal</a>
-          <a class="navigation_link" href="./signUp.html">Sign up</a>
+          <a class="navigation_link" href="sign-up.html">Sign up</a>
         </div>
       </div>
       <!-- Icons for theme toggle and external links -->
       <div class="navigation_icons_container">
         <button aria-label="Toggle Dark Mode" class="themeButton">
-          <img width="20" height="20" class="block dark:hidden" src="images/icons/moon.svg" alt="Moon">
-          <img width="20" height="20" class="hidden dark:block" src="images/icons/sun.svg" alt="Sun">
+          <img width="20" height="20" class="block dark:hidden" src="assets/images/icons/moon.svg" alt="Moon">
+          <img width="20" height="20" class="hidden dark:block" src="assets/images/icons/sun.svg" alt="Sun">
         </button>
         <a target="_blank" href="https://github.com/serhiipanovjs">
-          <img width="20" height="20" class="block dark:hidden" src="images/icons/github_black.svg" alt="Github">
-          <img width="20" height="20" class="hidden dark:block" src="images/icons/github_white.svg" alt="Github">
+          <img width="20" height="20" class="block dark:hidden" src="assets/images/icons/github_black.svg" alt="Github">
+          <img width="20" height="20" class="hidden dark:block" src="assets/images/icons/github_white.svg" alt="Github">
         </a>
       </div>
       <!-- Button for toggling mobile menu -->
@@ -72,17 +72,17 @@
         <a class="navigation_link" href="./customers.html">Customers</a>
         <a class="navigation_link" href="./about.html">About</a>
         <a class="navigation_link active" href="./deal.html">Deal</a>
-        <a class="navigation_link" href="./signUp.html">Sign up</a>
+        <a class="navigation_link" href="sign-up.html">Sign up</a>
       </div>
       <!-- Mobile navigation icons -->
       <div class="navigation_icons_container mobile">
         <button aria-label="Toggle Dark Mode" class="themeButton">
-          <img width="20" height="20" class="block dark:hidden" src="images/icons/moon.svg" alt="Moon">
-          <img width="20" height="20" class="hidden dark:block" src="images/icons/sun.svg" alt="Sum">
+          <img width="20" height="20" class="block dark:hidden" src="assets/images/icons/moon.svg" alt="Moon">
+          <img width="20" height="20" class="hidden dark:block" src="assets/images/icons/sun.svg" alt="Sum">
         </button>
         <a target="_blank" href="https://github.com/serhiipanovjs">
-          <img width="20" height="20" class="block dark:hidden" src="images/icons/github_black.svg" alt="Github">
-          <img width="20" height="20" class="hidden dark:block" src="images/icons/github_white.svg" alt="Github">
+          <img width="20" height="20" class="block dark:hidden" src="assets/images/icons/github_black.svg" alt="Github">
+          <img width="20" height="20" class="hidden dark:block" src="assets/images/icons/github_white.svg" alt="Github">
         </a>
       </div>
     </nav>
@@ -175,14 +175,14 @@
     <!-- Social media icons -->
     <div class="footer_icons_container">
       <a target="_blank" href="https://github.com/serhiipanovjs">
-        <img width="20" height="20" class="block dark:hidden" src="images/icons/github_black.svg" alt="Github">
-        <img width="20" height="20" class="hidden dark:block" src="images/icons/github_white.svg" alt="Github">
+        <img width="20" height="20" class="block dark:hidden" src="assets/images/icons/github_black.svg" alt="Github">
+        <img width="20" height="20" class="hidden dark:block" src="assets/images/icons/github_white.svg" alt="Github">
       </a>
       <a target="_blank" href="https://www.slack.com/">
-        <img width="20" height="20" src="images/icons/slack.svg" alt="Slack">
+        <img width="20" height="20" src="assets/images/icons/slack.svg" alt="Slack">
       </a>
       <a target="_blank" href="https://www.linkedin.com/">
-        <img width="20" height="20" src="images/icons/linkedin.svg" alt="Linkedin">
+        <img width="20" height="20" src="assets/images/icons/linkedin.svg" alt="Linkedin">
       </a>
     </div>
   </footer>
@@ -353,16 +353,33 @@
           <h4>Date: <span class="dealModalDate"></span></h4>
         </div>
         <!-- Button for signing the agreement -->
-        <a href="./" id="dealSubmitButton" role="button" aria-disabled="false" class="button_link">SIGN</a>
+        <button id="dealSubmitButton" aria-disabled="false" class="button_link">SIGN</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal for return policy -->
+  <div id="thankYouModal" class="modal_wrapper hidden">
+    <!-- Modal container -->
+    <div class="modal_container">
+      <div class="modal_header">
+      </div>
+      <div class="modal_content">
+        <!-- Thank you content -->
+        <div class="thank_you_modal_content">
+          <h2>Thank you for your SOUL!</h2>
+          <h4 class="modal_title">Your wish comes true!</h4>
+          <a href="./" aria-disabled="false" class="button_link">Return to the home page</a>
+        </div>
       </div>
     </div>
   </div>
 
 </div>
 <!-- Scripts for functionality -->
-<script src="js/header.js"></script>
-<script src="js/footer_and_modals.js"></script>
-<script src="js/deal.js"></script>
+<script src="assets/js/header.js"></script>
+<script src="assets/js/footer_and_modals.js"></script>
+<script src="assets/js/deal.js"></script>
 
 </body>
 

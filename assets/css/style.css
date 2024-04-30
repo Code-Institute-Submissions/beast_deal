@@ -757,9 +757,19 @@ h1.special {
   background-color: var(--black);
 }
 
+/* Styling for thank you modal content */
+.thank_you_modal_content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 /* Styling for specific modal content */
 .rules_and_conditions_modal_content,
 .return_policy_modal_content,
+.thank_you_modal_content,
 .confirmDeal_modal_content {
   padding-left: 1rem;
 }
@@ -767,6 +777,7 @@ h1.special {
 /* Styling for headings within modal content */
 .rules_and_conditions_modal_content h4,
 .return_policy_modal_content h4,
+.thank_you_modal_content h4,
 .confirmDeal_modal_content h4 {
   text-align: center;
 }
