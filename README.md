@@ -131,10 +131,7 @@ Although there's no sign-up option on this page, you're just a click away from e
 
 ## Testing
 
-
 ### Validator Testing
-
-## Code Validation
 
 ### HTML
 
@@ -167,11 +164,12 @@ The live link can be found here - https://serhiipanovjs.github.io/beast_deal/
 
 ## Credits
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
+Our project wouldn't have been possible without the invaluable contributions from various sources:
 
-You can break the credits section up into Content and Media, depending on what you have included in your project.
-
-### Media
-
-- Stable diffusion
-- Chat gpt-4
+- **Irish Government**: I extend my sincere appreciation to the Irish government for their generous support and sponsorship, which played a vital role in the success of this project.
+- **Code Institute**: A heartfelt thank you to Code Institute for their educational resources, which equipped me with the skills and knowledge necessary to bring this project to fruition.
+- **Mentorship**: Special gratitude goes to my mentor, Sheryl Goldberg, whose unwavering support propelled me forward, turning challenges into opportunities for growth.
+- **ChatGPT-4**: The cornerstone of this project, ChatGPT-4 provided essential insights, generated content, and offered assistance at every step of the way.
+- **Stable Diffusion**: Through the powerful capabilities of Stable Diffusion, I was able to generate awesome images.
+- **Personal Contributions**: My own dedication and expertise shaped this project's success, from conceptualization to execution.
+- **Community Support**: I'm thankful for the vibrant developer community whose discussions, tutorials, and open-source contributions inspired and informed my work.
