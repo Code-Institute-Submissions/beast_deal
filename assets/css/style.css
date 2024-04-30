@@ -329,8 +329,9 @@ h1.special {
 
 /* Active navigation link style */
 .header_wrapper .navigation_links_container .active {
-  color: var(--blue);
+  color: var(--blood_red);
   pointer-events: none;
+  font-weight: 900;
 }
 
 /* Styles for mobile navigation links container */
@@ -1082,6 +1083,7 @@ h1.special {
 /* Styling for the name of the executor */
 .executor_description .executor_name {
   font-size: 25px;
+  font-weight: 800;
 }
 
 /* Styling for the story of the executor */
