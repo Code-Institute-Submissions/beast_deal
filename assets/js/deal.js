@@ -33,7 +33,7 @@ function dealFormSubmit(event) {
   for(let i = 0;i < dealModalDates.length; i++)
   {
     const dealModalDate = dealModalDates[i];
-    dealModalDate.textContent = new Date().toLocaleDateString().padStart(10, '0') || "";
+    dealModalDate.textContent = new Date().toLocaleString() || "";
   }
 
   confirmDealModal.classList.remove("hidden");
