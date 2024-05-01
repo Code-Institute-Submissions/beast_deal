@@ -11,6 +11,112 @@ Join us at Beast Deal and let us turn your dreams into reality, one deal at a ti
 
 ![beast_deal_mockup](documentation/beast_deal_mockup.png)
 
+[Beast Deal Live Site](https://serhiipanovjs.github.io/beast_deal/)
+
+## Website Goals
+
+### Business Goals
+
+- Maximize Soul Transactions: Drive traffic and engagement to the site to increase the number of soul transactions,
+  ensuring a steady revenue stream.
+- Enhance User Experience: Develop an intuitive and immersive user interface to captivate visitors and encourage them to
+  explore the soul-selling process and wish fulfillment options.
+- Ensure Ethical Guidelines: Implement stringent ethical guidelines to ensure that soul transactions are conducted
+  responsibly and with the user's informed consent.
+- Expand Wish Fulfillment Offerings: Continuously diversify and expand the range of wishes that can be fulfilled,
+  catering to a wide spectrum of desires and preferences.
+- Build Trust and Credibility: Establish the site as a trusted platform for soul transactions and wish fulfillment by
+  prioritizing transparency, security, and reliability.
+- Leverage Social Proof: Showcase testimonials and success stories from satisfied customers to instill confidence in
+  potential soul sellers and wish seekers.
+
+### Customer Goals
+
+- Achieving Success: Customers may aim to attain success in various aspects of life such as career, finance, or social
+  status.
+- Finding Love: Some customers might seek genuine and lasting romantic relationships or reconciliation with a lost love.
+- Obtaining Power: Individuals may desire authority, influence, or control over others and their surroundings.
+- Seeking Knowledge: Customers might be motivated by the pursuit of knowledge, wisdom, or enlightenment, even if it
+  comes at a cost.
+- Exploring Adventure: Some may long for thrilling experiences, daring escapades, or journeys into the unknown.
+- Attaining Happiness: Customers may aspire to achieve inner peace, contentment, or fulfillment in their lives.
+- Gaining Immortality: Individuals might seek ways to extend their lifespan or achieve immortality, defying the limits
+  of mortality.
+- Satisfying Curiosity: Some customers may be driven by curiosity, seeking answers to existential questions or the
+  mysteries of the universe.
+- Seeking Justice or Revenge: Others may desire retribution against those who wronged them or seek justice for past
+  injustices.
+- Creating Art or Beauty: Customers might aim to unleash their creative potential, produce masterpieces, or leave a
+  lasting legacy through their artistic endeavors.
+
+## User Experience
+
+### Potential Customers
+
+- The Seeker: Anyone yearning for something beyond their reach, whether it's success, love, happiness, or power.
+- The Wanderer: Individuals feeling lost or disconnected from the world, seeking purpose or meaning in their lives.
+- The Adventurer: Those craving extraordinary experiences or seeking to explore the unknown, even if it means making a
+  Faustian bargain.
+- The Desperate: People facing dire circumstances or overwhelming challenges, willing to make a deal to escape their
+  troubles.
+- The Curious: Individuals intrigued by the idea of selling their soul for the sake of knowledge, discovery, or
+  enlightenment.
+- The Rebel: Those who reject societal norms or authority, seeking to defy conventions or reshape their reality.
+- The Dreamer: People with grand aspirations or fantastical dreams, willing to sacrifice anything to see them come true.
+- The Collector: Individuals fascinated by the idea of possessing something rare or unique, even if it's as intangible
+  as a soul.
+- The Survivor: Those who have faced tragedy or hardship and are desperate for a second chance or a way to change their
+  fate.
+- The Eternal Seeker: Individuals who are perpetually dissatisfied or restless, constantly searching for something more
+  in life.
+
+### User Stories
+
+## New User:
+
+- Wish Fulfillment: Users will likely expect the site to deliver on its promise of fulfilling their deepest desires,
+  whether they're material, emotional, or spiritual.
+- Customized Offerings: The ability to tailor the fulfillment of wishes to their specific desires and needs would be
+  highly sought after.
+- Transcendence: Some users may seek experiences that go beyond the ordinary, aiming for spiritual enlightenment,
+  transcendental experiences, or personal transformation.
+- Guarantees: Assurance that their wishes will indeed be fulfilled, perhaps with testimonials or guarantees from
+  satisfied customers.
+- Privacy and Security: Given the sensitive nature of selling one's soul, users will expect strict privacy measures and
+  secure transactions to protect their personal information.
+- Clarity on Terms: Clear explanations of the terms and conditions of selling one's soul, including any potential
+  consequences or obligations.
+- Evidence of Success: Stories, testimonials, or evidence of fulfilled wishes to instill confidence in the service's
+  effectiveness.
+- Variety of Offerings: A diverse range of wishes that can be fulfilled, catering to different interests, desires, and
+  cultural backgrounds.
+- Ease of Use: A user-friendly interface that makes it easy for users to navigate the site, submit their wishes.
+
+## Returning User:
+
+- Access to Previously Agreed Upon Wishes: Returning users would expect access to the wishes they've already sold their
+  souls for, ensuring that the terms of their agreements are upheld.
+- Community and Support Networks: Given their unique circumstances, users might seek out a community or support network
+  of others who have also sold their souls, where they can share experiences, advice, and coping strategies.
+- Privacy and Confidentiality: Users would expect strict confidentiality regarding the details of their wishes and
+  agreements, ensuring that their privacy is respected and protected.
+- Options for Soul Retrieval: Some users may have regrets about selling their souls and seek options for soul retrieval
+  or renegotiation of their agreements.
+- Updates on Soul-related Matters: Users might expect updates or information related to soul-related matters, such as
+  changes in the terms of their agreements, opportunities for additional wishes, or insights into the spiritual
+  implications of their decisions.
+- Empathy and Understanding: Above all, returning users would appreciate empathy, understanding, and non-judgmental
+  support from the site's administrators and staff, recognizing the gravity of their decisions and the complexities of
+  their situations.
+
+## Site Administrator:
+
+- As a site administrator, the pages should be easily manageable
+- As a site administrator, the contact system should be able to sort general enquiries into categories to ensure that it
+  reaches the correct knowledge base.
+- As a site administrator, the code should be signposted and easy to navigate, it should be consistent and accurate, so
+  I can update it when required.
+
 ## Existing Features
 
 ### Pages
@@ -215,15 +321,11 @@ button below to discover our latest offers and promotions on our Deal page.
  404 page - 404.html        | ![404 - 404.html](documentation/light_house_valid_mobile_404.png)                  | Mobile  | Yes    |
  404 page - 404.html        | ![404 - 404.html](documentation/light_house_valid_desktop_404.png)                 | Desktop | Yes    |
 
-## Deployment
+## My goals were to
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows:
-  - In the GitHub repository, navigate to the Settings tab
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to
-    indicate the successful deployment.
-
-The live link can be found here - https://serhiipanovjs.github.io/beast_deal/
+- implement light and dark themes on the site and check how this can change the meaning of the same page content.
+- use ChatGPT for generating stories and another content.
+- use Stable Diffusion for creating amazing pictures and icons ether worked with AI learning.
 
 ## Credits
 
@@ -235,8 +337,6 @@ Our project wouldn't have been possible without the invaluable contributions fro
   the skills and knowledge necessary to bring this project to fruition.
 - **Mentorship**: Special gratitude goes to my mentor, Sheryl Goldberg, whose unwavering support propelled me forward,
   turning challenges into opportunities for growth.
-- **ChatGPT-4**: The cornerstone of this project, ChatGPT-4 provided essential insights, generated content, and offered
-  assistance at every step of the way.
 - **Stable Diffusion**: Through the powerful capabilities of Stable Diffusion, I was able to generate awesome images.
 - **Personal Contributions**: My own dedication and expertise shaped this project's success, from conceptualization to
   execution.
